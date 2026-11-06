@@ -1,3 +1,48 @@
 body {
-	font-family: sans-serif;
+    font-family: sans-serif;
 }
+
+.app {
+    display: grid;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 12px;
+    width: 600px;
+    height: 400px;
+}
+
+.image {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 5px;
+    margin-inline: auto;
+}
+
+/* .prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1; 
+}
+.prev {
+    left: 70px;
+}
+.next {
+    right: 70px;
+}
+ */
